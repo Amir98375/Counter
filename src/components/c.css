@@ -1,0 +1,21 @@
+.main{
+    width:130px;
+    height:200px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    justify-items: center;
+}
+.main>div{
+    border: 1px solid;
+    justify-content: space-between;
+    height: 45px;
+    width: 40px;
+    margin-top: 20%;
+    text-align: center;
+    padding-top: 10px;
+}
+.btn-primary{
+    margin-left: 2%;
+}
